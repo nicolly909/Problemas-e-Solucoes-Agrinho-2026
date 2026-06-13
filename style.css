@@ -1,0 +1,110 @@
+/* Fonte principal e fundo */
+body {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(to right, #063005 20%, #39a147 80%);
+  color: #f5f5dc; /* bege suave */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Títulos e textos */
+h1, h2, h3, p, li {
+  color: #f5f5dc !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-shadow: 2px 2px 4px #1b2915;
+}
+
+.container {
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-style: double;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* sombra suave */
+  padding: 20px;
+}
+
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #e0e0d1;
+}
+
+/* Imagens */
+.imagem-topo img,
+.imagem-dados img,
+.imagem-solucoes img {
+  width: 60%;
+  max-width: 500px; /* nunca passa de 600px */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centraliza */
+}
+img {
+  border-radius: 15px; /* arredonda os cantos */
+}
+
+
+
+/* Seções */
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Listas */
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+/* Botão */
+button {
+  display: block;
+  margin: 25px auto;
+  background-color: #4cd964;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #34c759;
+  transform: translateY(-2px);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #dcdcdc;
+  margin-top: 50px;
+  padding: 15px 0;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
